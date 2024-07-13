@@ -101,7 +101,7 @@ function switchLanguage(language) {
         document.querySelector('footer p').innerHTML = '&copy; 2024. Desenvolvido por <a href="https://github.com/nathalianoemia" class="no-link-github">Nathália Noemia</a>.';
 
     } else if (language === 'en') {
-        flagElement.src = 'images/USA.png';
+        flagElement.src = 'images/usa.png';
         flagElement.alt = 'USA Flag';
         document.documentElement.lang = 'en';
         enOption.classList.add('active');
