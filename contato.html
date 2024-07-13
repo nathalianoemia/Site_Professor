@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raul Paradeda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Playwrite+US+Trad:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-center">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contato.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div id="language-switcher">
+                <img id="flag" src="images/Brazil.png" alt="Bandeira do Brasil">
+                <ul id="language-menu">
+                    <li id="pt" onclick="switchLanguage('pt')">Português</li>
+                    <li id="en" onclick="switchLanguage('en')">English</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 id="typing-text"></h1><span class="blinking-cursor">|</span>
+    </div>
+    <div class="contact-sections">
+        <div class="map-section">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1016653.3284236819!2d-36.91830503802443!3d-5.5221190171886025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ff6649501b3d%3A0x824b8da70b3c06d2!2sUERN%20-%20Universidade%20do%20Estado%20do%20Rio%20Grande%20do%20Norte%20-%20Campus%20Avan%C3%A7ado%20-%20Natal%2FRN!5e0!3m2!1spt-BR!2sbr!4v1720739621842!5m2!1spt-BR!2sbr" width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-hidden="false"></iframe>
+            <p class="professional-address">Endereço profissional:</p>
+            <p class="Endereço">
+                Universidade do Estado do Rio Grande do Norte, Instituto de Ciencias Exatas e Naturais, Campus Avançado de Natal.
+                <br>Avenida Doutor João Medeiros Filho - de 3003 a 3741 - lado ímpar
+                <br>Potengi
+                <br>59120200 - Natal, RN - Brasil</p>
+        </div>
+        <div class="contact-info">
+            <h2>Contatos</h2>
+            <div class="contact-item">
+                <a href="https://instagram.com/paradeda/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a> 
+                <span>@paradeda</span>
+            </div>
+            <div class="contact-item">
+                <a href="https://linkedin.com/in/raul-paradeda/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                <span>Raul Paradeda</span>
+            </div>
+            <div class="contact-item">
+                <a href="mailto:raulparadeda@uern.br"><img src="images/email.png" alt="Email"></a>
+                <span>raulparadeda@uern.br</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="social-icons">
+            <a href="https://instagram.com/paradeda/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://linkedin.com/in/raul-paradeda/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            <a href="mailto:raulparadeda@uern.br"><img src="images/email.png" alt="Email"></a>
+        </div>
+        <a href="https://portal.uern.br/" class="no-link">Universidade do Estado do Rio Grande do Norte (UERN)</a>
+        <p>&copy; 2024. Developed by <a href="https://github.com/nathalianoemia" class="no-link-github">Nathália Noemia</a>.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="language-switcher.js"></script>
+</body>
+</html>

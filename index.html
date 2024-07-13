@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raul Paradeda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Playwrite+US+Trad:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-center">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contato.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div id="language-switcher">
+                <img id="flag" src="images/Brazil.png" alt="Bandeira do Brasil">
+                <ul id="language-menu">
+                    <li id="pt" onclick="switchLanguage('pt')">Português</li>
+                    <li id="en" onclick="switchLanguage('en')">English</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 id="typing-text"></h1><span class="blinking-cursor">|</span>
+    </div>
+    <div class="profile-section">
+        <div class="center2">
+            <img src="images/Raul.jpg" alt="Profile Picture" class="profile-picture">
+            <div class="home">
+                <span class="strong-home">Hello,</span>
+                <p>Eu sou Raul Paradeda. Possuo graduação em Ciência da Computação pela Universidade Católica de Pelotas (2004), tenho mestrado em Sistemas e Computação pela Universidade Federal do Rio Grande do Norte (2007) e doutorado em Engenharia Informática e de Computadores pelo Instituto Superior Técnico da Universidade de Lisboa (2020).</p>
+                <!-- <p>Possuo graduação em Ciência da Computação pela Universidade Católica de Pelotas (2004), tenho mestrado em Sistemas e Computação pela Universidade Federal do Rio Grande do Norte (2007) e doutorado em Engenharia Informática e de Computadores pelo Instituto Superior Técnico da Universidade de Lisboa (2020).</p> -->
+            </div>
+        </div>
+    </div>
+    <div class="about-home">
+        <a href="about.html" class="about-home-link">Sobre</a>
+    </div>
+    <footer>
+        <div class="social-icons">
+            <a href="https://instagram.com/paradeda/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://linkedin.com/in/raul-paradeda/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            <a href="mailto:raulparadeda@uern.br"><img src="images/email.png" alt="Email"></a>
+        </div>
+        <a href="https://portal.uern.br/" class="no-link">Universidade do Estado do Rio Grande do Norte (UERN)</a>
+        <p>&copy; 2024. Developed by <a href="https://github.com/nathalianoemia" class="no-link-github">Nathália Noemia</a>.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="language-switcher.js"></script>
+</body>
+</html>

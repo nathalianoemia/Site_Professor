@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raul Paradeda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Playwrite+US+Trad:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-center">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contato.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div id="language-switcher">
+                <img id="flag" src="images/Brazil.png" alt="Bandeira do Brasil">
+                <ul id="language-menu">
+                    <li id="pt" onclick="switchLanguage('pt')">Português</li>
+                    <li id="en" onclick="switchLanguage('en')">English</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 id="typing-text"></h1><span class="blinking-cursor">|</span>
+    </div>
+    <div class="projetos">
+        <h2>Projetos</h2>
+    </div>
+    <div class="project-container">
+        <div class="project" data-title="
+        Avaliação da confiança na relação humano-robô: um estudo com idosos e o robô Robios" data-summary=" Este projeto objetiva avaliar o grau de confiança e a percepção de idosos sobre robô social Robios. Esse robô está sendo preparado para atuar junto a esta população e como parte desse preparo estão ações para tornar essa interação uma experiência saudável, ética, eficaz e prazerosa.">
+            <img src="images/robioss.png" alt="Projeto 1">
+            <div class="project-title"><p>Avaliação da confiança na relação humano-robô: um estudo com idosos e o robô Robios</p></div>
+        </div>
+        <div class="project" data-title="Ações para divulgação da ciência e tecnologia" data-summary="Este projeto tem como objetivo planejar, desenvolver e executar ações para fomentar e divulgar assuntos, conceitos, novidades e tudo mais que for relacionado às áreas de ciência e tecnologia.">
+            <img src="images/uerntech.jpg" alt="Projeto 2">
+            <div class="project-title"><p>Uerntech</p></div>
+        </div>
+        <div class="project" data-title="Influência de agente virtual nas decisões do jogador em um jogo casual" data-summary="Esse projeto tem como objetivo medir o impacto na confiança de uma pessoa em relação a um agente, que tem o objetivo de auxiliar essa pessoa em uma tarefa específica, quando esse comete falhas. Para isto, será desenvolvido um cenário onde o participante irá interagir com um assistente virtual em um jogo da memória. Esse assistente terá o papel de indicar quais as cartas que o participante deve selecionar para formar o par.">
+            <img src="images/Roboldo.png" alt="Projeto 3">
+            <div class="project-title"><p>Influência de agente virtual nas decisões do jogador em um jogo casual</p></div>
+        </div>
+        <div class="project" data-title="Influência da aparência de um personagem não jogável (NPC) no nível de confiança e tomada de decisão do jogador" data-summary="Esse projeto tem como objetivo verificar se a aparência do NPC pode influenciar o nível de confiança que a pessoa tem em relação ao caractere, se a escolha feita dentro do cenário do jogo pode ser influenciada por esta aparência e, por fim, se a motivação do jogador é afetada por essa aparência.">
+            <img src="images/NPC.png" alt="Projeto 4">
+            <div class="project-title"><p>Influência da aparência de um personagem não jogável (NPC) no nível de confiança e tomada de decisão do jogador</p></div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-btn" class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-summary"></p>
+        </div>
+    </div>
+    <footer>
+        <div class="social-icons">
+            <a href="https://instagram.com/paradeda/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://linkedin.com/in/raul-paradeda/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            <a href="mailto:raulparadeda@uern.br"><img src="images/email.png" alt="Email"></a>
+        </div>
+        <a href="https://portal.uern.br/" class="no-link">Universidade do Estado do Rio Grande do Norte (UERN)</a>
+        <p>&copy; 2024. Developed by <a href="https://github.com/nathalianoemia" class="no-link-github">Nathália Noemia</a>.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="language-switcher.js"></script>
+</body>
+</html>

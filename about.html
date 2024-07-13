@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raul Paradeda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Playwrite+US+Trad:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-center">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contato.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div id="language-switcher">
+                <img id="flag" src="images/Brazil.png" alt="Bandeira do Brasil">
+                <ul id="language-menu">
+                    <li id="pt" onclick="switchLanguage('pt')">Português</li>
+                    <li id="en" onclick="switchLanguage('en')">English</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 id="typing-text"></h1><span class="blinking-cursor">|</span>
+    </div>
+    <div class="about">
+        <h1>Personal Life</h1>
+        <p>Seja bem-vindo ao meu espaço! Aqui você encontrará mais do que apenas um professor — descobrirá alguém apaixonado por uma variedade de interesses que vão além da sala de aula.</p>
+        <p>Sou aficionado por coisas de nerd, devorador ávido de livros, mestre nos universos virtuais dos videogames e estrategista em jogos de tabuleiro e cartas.</p>
+        <p>Sou apaixonado por futebol, ratinho de academia, aprecio a elegância da dança de salão e encontro disciplina nas artes marciais como muay thai, krav maga e kung fu. Além disso, aprecio a adrenalina e a precisão do automobilismo.</p>
+        <br>
+        <br>
+        <h1>Professional Life</h1><br>
+        <p>Atualmente, sou professor adjunto na Universidade do Estado do Rio Grande do Norte (UERN). Tenho interesse na pesquisa relacionada a Computação Afetiva utilizando Robôs Sociais, Interação Humano-Robô, Agentes virtuais e Identificação de personalidade através de Jogos e Narrativas Digitais.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="corpo">
+        <div class="timeline">
+            <div class="timeline-event" onclick="openModal('modal1')">
+                <div class="timeline-circle">2014</div>
+                <div class="timeline-content">
+                    <p>Doutorado em Engenharia Informática e de Computadores.</p>
+                </div>
+            </div>
+            <div class="timeline-event" onclick="openModal('modal2')">
+                <div class="timeline-circle">2005</div>
+                <div class="timeline-content">
+                    <p>Mestrado em Sistemas e Computação</p>
+                </div>
+            </div>
+            <div class="timeline-event" onclick="openModal('modal3')">
+                <div class="timeline-circle">2000</div>
+                <div class="timeline-content">
+                    <p>Graduação em Ciência da Computação.</p>
+                </div>
+            </div>
+            <div class="timeline-event" onclick="openModal('modal4')">
+                <div class="timeline-circle">1997</div>
+                <div class="timeline-content">
+                    <p>Ensino Médio (2º grau).</p>
+                </div>
+            </div>
+            <div class="timeline-event" onclick="openModal('modal5')">
+                <div class="timeline-circle">1994</div>
+                <div class="timeline-content">
+                    <p>Ensino Fundamental (1º grau).</p>
+                </div>
+            </div>
+        </div>
+        <div class="lattes">
+            <a href="http://lattes.cnpq.br/7719675103212706" class ="lattes-link">Lattes</a>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h2>Doutorado em Engenharia Informática e de Computadores.</h2>
+            <p>2014-2020</p>
+            <p>Instituto Superior Técnico de Lisboa, IST, Portugal.
+                Título: Personality-based Persuasion by an Interactive Social Robot Storyteller, Ano de obtenção: 2020.
+                <br>Orientador: Ana Paiva.
+                Coorientador: Carlos Martinho.
+                Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil.
+                Palavras-chave: Robôs Sociais; Narrativas Interativas; Persuasão; Traços de Personalidade.
+                Grande área: Ciências Exatas e da Terra
+                Grande Área: Ciências Humanas / Área: Psicologia / Subárea: Persuasão.
+                Grande Área: Ciências Humanas / Área: Psicologia / Subárea: Traços de Personalidade.
+                Setores de atividade: Educação.</p>
+        </div>
+    </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h2>Mestrado em Sistemas e Computação</h2>
+            <p>2005-2007</p>
+            <p>Universidade Federal do Rio Grande do Norte, UFRN, Brasil.
+                Título: Utilizando Pesos Estáticos e Dinâmicos em Sistemas Multi-Classificadores com Diferentes Níveis de Diversidade , Ano de Obtenção: 2007.
+                <br>Orientador: Anne Magály de Paula Canuto.
+                Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil.
+                Palavras-chave: Aprendizado de Máquina; Sistemas de Multi-Classificação; Ensembles; Métodos de Combinação; Pesos.
+                Grande área: Ciências Exatas e da Terra
+                Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Inteligência Artificial.
+                Setores de atividade: Atividades profissionais, científicas e técnicas.</p>
+        </div>
+    </div>
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <h2>Graduação em Ciência da Computação.</h2>
+            <p>2000-2004</p>
+            <p>Católica de Pelotas, UCPEL, Brasil.
+                Título: SISTEMA DE RECOMENDAÇÃO APLICADO AO TURISMO.
+                <br>Orientador: Ramiro Saldaña.
+                Bolsista do(a): Bolsa Antonio Zattera, BOLSA FUNDAÇÃO, Brasil.</p>
+        </div>
+    </div>
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal4')">&times;</span>
+            <h2>Ensino Médio (2º grau).</h2>
+            <p>1997-2000</p>
+            <p>Colegio Municipal Pelotense, CMP, Brasil.</p>
+        </div>
+    </div>
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal5')">&times;</span>
+            <h2>Ensino Fundamental (1º grau).</h2>
+            <p>1994-1996</p>
+            <p>Colegio Municipal Pelotense, CMP, Brasil.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="social-icons">
+            <div class="social-icons">
+                <a href="https://instagram.com/paradeda/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="https://linkedin.com/in/raul-paradeda/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                <a href="mailto:raulparadeda@uern.br"><img src="images/email.png" alt="Email"></a>
+            </div>
+        </div>
+        <a href="https://portal.uern.br/" class="no-link">Universidade do Estado do Rio Grande do Norte (UERN)</a>
+        <p>&copy; 2024. Developed by <a href="https://github.com/nathalianoemia" class="no-link-github">Nathália Noemia</a>.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="language-switcher.js"></script> 
+</body>
+</html>
